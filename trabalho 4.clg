@@ -1,0 +1,20 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo: Construa um algoritmo que a partir da leitura de dois numeros forneça o resto e o quociente da divisÃo do primeiro pelo segundo número.
+//  Entrada : Dois numeros reais
+//  Saída   : O quociente e o  resto da divisao real
+
+
+principal
+inteiro num1,num2,resp; //variaveis reais 
+inteiro resp2,resp1;
+escreval("escreva o primeiro número: ");
+leia(num1);
+escreval("escreva o segundo número: ");
+leia(num2);
+resp1=num1/num2;
+resp2=num1 mod num2;
+escreval("o resto da divisão é: ",resp1);
+escreval("o quoeficiente da divisão é: ",resp2);
+
+fimPrincipal

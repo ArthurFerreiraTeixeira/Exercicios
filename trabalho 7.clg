@@ -1,0 +1,32 @@
+algoritmo semNome;
+// Síntese
+/*  Objetivo:  Escreva um programa que leia o nome do funcionario, o sexo (F ou M), o numero de matricula do funcionario, o numero de horas 
+  	trabalhadas, o valor que recebe por hora e calcule o salario desse funcionario. A seguir, mostre todos os dados na tela, os dados
+	de entrada e os dados de saida. */
+//  Entrada : Nome completo, sexo, numero de matricula, numero de horas trabalhadas, o valor que recebe por horas.
+//  Saida   :  Dados do funcionario, e o salario do funcionario
+// Valores de Entrada : Nome completo, sexo, numero de matricula, numero de horas trabalhadas, o valor que recebe por horas.
+// Valores de Saida:  Dados do funcionario, e o salario do funcionario
+principal
+texto nome;
+caracter sexo;
+inteiro matricula,resul,num3,horasT,salarioH,horas;
+escreval("Digite o seu nome aqui");//nome
+leia(nome);
+escreval("informe seu sexo (F/M):");//sexo
+leiaCaracter(sexo);
+sexo=maiusculoCaracter(sexo);
+escreval("informe a sua matricula: ");//numero da matricula
+leia(matricula);
+escreval("informe o número de horas trabalhadas: ");//horas trabalhadas
+leia(horas);
+escreval("informe o valor que recebe po hora: ");//valor que recebe por hora
+leia(salarioH);
+horasT=salarioH*horas;//salario
+escreval("Nome: ",nome);
+escreval("Sexo: ",sexo);
+escreval("Matricula: ",matricula);
+escreval("Horas trabalhadas: ",horas);
+escreval("Valor por hora trabalhada: ",salarioH);
+escreval("Salário: ",horasT);
+fimPrincipal

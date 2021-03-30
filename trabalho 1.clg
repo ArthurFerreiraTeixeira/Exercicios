@@ -1,0 +1,18 @@
+algoritmo horas;
+// SÃ­ntese
+//  Objetivo:  Converter um valor em horas para segundos e minutos
+//  Entrada :  Horas
+//  SaÃ­da   :  Segundos, Minutos
+
+
+principal
+	// DeclaraÃ§Ãµes
+	inteiro Horas,multi1,multi2;
+	// InstruÃ§Ãµes
+	escreva("Que Horas sÃ£o? ");
+	leia(Horas);
+	multi1=Horas*60;
+	multi2=Horas*3600;
+	escreval(Horas," Horas em minutos sÃ£o: ", multi1, " minutos.");
+	escreval(Horas," Horas em segundos sÃ£o: ", multi2, " segundos.");
+fimPrincipal

@@ -1,0 +1,18 @@
+algoritmo atividade5;
+// Síntese
+//  Objetivo:  um algoritimo para descobrir a quantidade de rolos e a quantidade de metros avulsos de fios
+//  Entrada :quantidade de fios em metros
+//  Saída   :A quantidade de rolos, A quantidade de fios que sobraram em metros
+
+
+principal
+inteiro fios,rolos,resultado1,resultado2;
+escreval("Informe a quantidade de fios em metros: ");
+leia(fios);
+resultado1=fios/50;//divisão de fios por rolos(50 metros);
+resultado2=fios mod 50;// a sobra de fios
+escreval("A quantidade de rolos é igual á: ",resultado1);
+escreval("A quantidade de fios que sobraram em metros é igual á: ",resultado2);
+
+
+fimPrincipal

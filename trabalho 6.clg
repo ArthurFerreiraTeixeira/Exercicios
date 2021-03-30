@@ -1,0 +1,27 @@
+algoritmo MediaPonderadaDaNota;
+// SÃ­ntese
+/*  Objetivo:  Leia 2 valores A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a mÃ©️dia do aluno, sabendo que a nota A tem peso 3.5
+					e a nota B tem peso 7.5 (A soma dos pesos portanto Ã©️ 11). Assuma que cada nota pode ir de 0 atÃ©️ 10.0. */
+//  Entrada : Duas notas A e B.
+//  SaÃ­da   : MÃ©️dia ponderada das notas.
+// Valores de Entrada : Duas notas A e B.
+// Valores de Saida: MÃ©️dia ponderada das notas.
+principal
+	inteiro NOTA1,NOTA2 , media ;
+	escreval("Quanto ele tirou na primeira prova ?");//nota da primeira prova
+	leia(NOTA1);
+	enquanto(NOTA1<0 ou NOTA1>10 )faca//enquanto nota menor que 0 e maior que 10 a nota é invalida
+    escreval("Nota Invalida");
+    escreval("Quanto ele tirou na primeira prova ?");
+	leia(NOTA1);
+    fimEnquanto
+    escreval("Quanto ele tirou na segunda prova ?");
+	leia(NOTA2);
+enquanto(NOTA2<0 ou NOTA2>10 )faca//enquanto nota menor que 0 e maior que 10 a nota é invalida
+    escreval("Nota Invalida");
+    escreval("Quanto ele tirou na segunda prova ?");
+	leia(NOTA2);
+    fimEnquanto
+    media=((NOTA1*3.5)+(NOTA2*7.5))/11;
+	escreval("A media das notas apresentadas e :",media);
+fimPrincipal

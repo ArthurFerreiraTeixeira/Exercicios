@@ -1,0 +1,17 @@
+algoritmo areacircular;
+// Síntese
+//  Objetivo:calcular a área de um circulo
+//  Entrada :raio
+//  Saída   :area do circulo
+
+
+principal
+	real area,raio,resultado,num1,num2;//minhas variaveis
+escreval("informe o valor do raio: ");//apresentar o texto na tela
+leia(raio);//variavel
+num1=exp(raio,2);
+resultado=3.14*num1;//calcular o resultado
+escreval("a área do circulo é: :",resultado);
+
+
+fimPrincipal
